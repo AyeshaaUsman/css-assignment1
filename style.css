@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    background-color: saddlebrown;
+    display: inline-block;
+    padding-top: 70px;
+    margin-top: -2em;
+    cursor: pointer;
+}
+
+.content{
+    height: 100%;
+    width: 79%;
+    background-color: white;
+    display: inline-block;
+    overflow: auto;
+    padding-left: 30px;     
+}
+
+.dp{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 10px solid sienna;
+    margin-top: 3em;
+    margin-left: 3.5em;
+    margin-right: 1em;
+   
+    
+}
+
+a{
+    font-family: "Mulish", sans-serif;
+    color:rgb(218, 215, 215);
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 1.5em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+@font-face{
+    font-family: Saira1;
+    src: url(Assets/Fonts/SairaCondensed-Bold.ttf);
+}
+
+@font-face{
+    font-family: Saira2;
+    src: url(Assets/Fonts/SairaCondensed-ExtraLight.ttf);
+}
+
+
+.headname{
+    font-family: Saira1;
+    color: #313030;;
+    font-size: 95px;
+    font-weight: 700;
+    padding-top: 125px;
+    margin: auto;
+}
+
+.name{
+    color: sienna;
+}
+
+.mail{
+    color: sienna;
+    cursor: pointer;
+}
+
+.border{
+    border-bottom: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.head1{
+    color: #313030;
+    font-family: Saira1;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.head2{
+    color: #313030;
+    font-family: Saira1;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+
+.head3{
+    font-family: Saira2;
+    color: gray;
+    font-size: 25px;
+    font-weight: 40%;
+    margin-top: -.5em;
+    margin-bottom: 2em;
+       
+}
+
+.head4{
+    font-family: Saira2;
+    color: gray;
+    font-size: 22px;
+    font-weight: light;
+    margin-top: -1.3em;
+    margin-bottom: 2em;
+}
+
+.para{
+    font-family: "Mulish", sans-serif;
+    color: gray;
+    font-size: 15px;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.para1{
+    font-family: "Mulish", sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+
+ol{
+    font-family: "Mulish", sans-serif;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon1{
+    width: 50px;
+    font-size: 45px;
+    margin: 10px;
+    color: #313030;
+    cursor: pointer;
+    padding-top: 115px;
+    
+ }
+ 
+.icon1:hover{
+    color: saddlebrown;
+}
+
+.icon2{
+    font-size: 50px;
+    color: #8a8888;
+    padding: 10px;
+    margin-top: .1em;
+    margin-bottom: 1em;
+}
+
+.award{
+    font-family: "Mulish", sans-serif;  
+    color: gray;
+}
+
+.award img{
+    width: 18px;
+}
+
+.mark{
+    font-family: "Mulish", sans-serif;  
+    color: gray;
+}
+
+.mark img{
+    width: 18px;
+}
+
+
+
